@@ -21,7 +21,7 @@ describe("2048", function () {
 			platformName: "Android",
 			platformVersion: "4.4",
 			deviceName: "QAphone",
-			app: "https://github.com/Blustery/appium/blob/master/js/android/apps/2048.apk",
+			app: "https://github.com/Blustery/appium/raw/master/js/android/apps/2048.apk",
 			"app-package": "",
 			"app-activity": ""
 		};
