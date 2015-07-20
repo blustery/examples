@@ -1,25 +1,6 @@
-# appium
-This repository provides example tests for popular native and web based apps on mobile devices using Appium. We plan to provide examples in various coding languages such as Java, Python, and Javascript. Currently we only have a few examples for Javascript available.
-
-General Setup
-=============
-You'll need to install NodeJS and Appium:
-NodeJS - https://nodejs.org/download/
-Appium - http://appium.io
-
-Javascript
-==========
-Before you can run these Javascript tests you'll need to install a few modules:
-WD.js - https://github.com/admc/wd
-Chai - http://chaijs.com/guide/installation/
-Chai As Promised - https://github.com/domenic/chai-as-promised
-
-You'll also need the Mocha test framework
-Mocha - http://mochajs.org/
-
 <snippet>
   <content><![CDATA[
-# ${1:Appium Examples}
+# Appium Examples
 This project is to help provide examples of mobile testing scripts against popular native apps or web apps being used on a mobile device. From our own experience there were some hurdles in learning to use Appium. So we hope to provide these examples as a way to help others get the hang of common test cases.
 ## Installation
 In general, you'll need to install NodeJS and Appium:
