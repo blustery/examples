@@ -3,15 +3,18 @@ This project is to help provide examples of mobile testing scripts against popul
 
 ## Installation
 In general, you'll need to install NodeJS and Appium:
+
 1. NodeJS - https://nodejs.org/download/
 2. Appium - http://appium.io
 
 Before you can run the Javascript tests you'll need to install a few modules:
+
 1. WD.js - https://github.com/admc/wd
 2. Chai - http://chaijs.com/guide/installation/
 3. Chai As Promised - https://github.com/domenic/chai-as-promised
 
 You'll also need the Mocha test framework
+
 1. Mocha - http://mochajs.org/
 
 ## Usage
