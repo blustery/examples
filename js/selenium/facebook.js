@@ -5,12 +5,12 @@ var assert = require('assert'),
 	user = '',
 	pass = '';
 try {
-	// Assigns the credentials from a file in the root of the repository.
+	// Attempts to assign credentials from a file in the root of the repository.
 	user = require('../../credentials.json').fbuser;
 	pass = require('../../credentials.json').fbpass;
 }
 catch(e) {
-	// Use these to assign static credentials for the test.
+	// Use these to assign local credentials for the test.
 	user = 'gisubyd_wongman_1437492351@tfbnw.net';
 	pass = 'ga79gzjlt8g';
 	console.log("MY EYES! THE GOGGLES DO NOTHING!");
