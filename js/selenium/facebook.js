@@ -4,17 +4,11 @@ var assert = require('assert'),
 	webdriver = require('selenium-webdriver'),
 	user = '',
 	pass = '';
-try {
-	// Attempts to assign credentials from a file in the root of the repository.
-	user = require('../../credentials.json').fbuser;
-	pass = require('../../credentials.json').fbpass;
-}
-catch(e) {
-	// Use these to assign local credentials for the test.
-	user = 'gisubyd_wongman_1437492351@tfbnw.net';
-	pass = 'ga79gzjlt8g';
-	console.log("MY EYES! THE GOGGLES DO NOTHING!");
-};
+
+// Run the bash script "setup.sh" to assign static credentials as environment
+// variables for use with this and other example scripts of ours.
+	user = process.env.FBuser;
+	pass = process.env.FBpass;
     
 test.describe('Facebook test', function() {
     this.timeout(20000);
