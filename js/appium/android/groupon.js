@@ -52,7 +52,7 @@ describe("groupon", function () {
 			.click();
 	});
 
-	it("Click the Search menu, and search for ice cream deals", function () {
+	it("Click the Search menu, and search for a deal", function () {
 		return browser
 			.waitForElementById("com.groupon:id/global_search_button_text",4000)
 			.click()
@@ -61,13 +61,13 @@ describe("groupon", function () {
 			.deviceKeyEvent(66);
 	});
 
-	it("Click a result for details about the ice cream", function () {
+	it("Click a result for details about the deal", function () {
 		return browser
 			.waitForElementByXPath("//android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]",4000)
 			.click();
 	});
 
-	it("Flick down until the end, then click More Similar Listings", function () {
+	it("Flick down until the end, then click first similar deal", function () {
 		function findElement() {
 			var flickOpts = {
 				endX: 0.5
